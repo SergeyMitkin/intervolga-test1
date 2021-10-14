@@ -8,16 +8,13 @@
     <title>Новости</title>
 </head>
 <body>
-    <div class="page-title">
-        <h1>Новости</h1>
+    <div class="site-title">
+        <h1 align="center">Новости</h1>
     </div>
 
-    <div class="news-list">
-        <h3 class="news-title">Новость 1</h3>
-        <span class="news-preview">
-            <?php echo $b; ?>
-        </span>
+    <div class="page-content">
+        <? include 'news-index.php';?>
     </div>
-
 </body>
 </html>
+
