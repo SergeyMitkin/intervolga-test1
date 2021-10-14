@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="page-title">
-        <h1 align="center">Новость 1</h1>
+        <h2>Новость 1</h2>
     </div>
 
     <div>

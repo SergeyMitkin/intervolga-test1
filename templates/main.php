@@ -13,7 +13,7 @@
     </div>
 
     <div class="page-content">
-        <? include 'news-index.php';?>
+        <? require_once $content;?>
     </div>
 </body>
 </html>
