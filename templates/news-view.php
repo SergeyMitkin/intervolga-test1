@@ -11,7 +11,7 @@
 
     <div>
         <span class="news-body">
-
+            <?= $a ?>
         </span>
     </div>
 
