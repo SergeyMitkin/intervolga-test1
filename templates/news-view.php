@@ -5,6 +5,7 @@
     <title>Новость 1</title>
 </head>
 <body>
+
     <div class="page-title">
         <h2>Новость 1</h2>
     </div>
