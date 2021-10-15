@@ -12,7 +12,7 @@
 
     <div>
         <span class="news-body">
-            <?= $a ?>
+            <?php echo $a ?>
         </span>
     </div>
 

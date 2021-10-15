@@ -17,7 +17,7 @@
     </div>
 
     <div class="page-content">
-        <? require_once $content;?>
+        <?php require_once $content;?>
     </div>
 </body>
 </html>
