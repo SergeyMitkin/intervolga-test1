@@ -13,11 +13,11 @@ $b = $news_preview['text']; // Сокращённый текст новости
 $link = $news_preview['link']; // Последние два слова и многоточие
 
 // Получаем адрес страницы
-if(isset($_GET['view'])){
-    $content = 'news-view.php';
+if(isset($_GET['view']) && $_GET['view'] == 'news-item'){
+    $content = 'news-view.php'; // Страница с полным текстом новости
 }
 else{
-    $content =  'news-index.php';
+    $content = 'news-index.php'; // Главная страница
 }
 
 // Подключаем основной шаблон
